@@ -1,0 +1,29 @@
+{
+    "name": "Platformer Practice",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "grafxkid-tiles": "github:riknoll/grafxkid-tiles#v2.0.1",
+        "MakeCode Arcade Hazard Tiles": "github:mrbrackebusch-code/platformerhazards#v0.0.6",
+        "Platformer Animated Collectibles": "github:mrbrackebusch-code/PlatformerCollectibles#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
